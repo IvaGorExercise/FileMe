@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemClanRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/bijela" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip" >
+
+        <TableRow>
+
+               <LinearLayout 
+                  android:layout_width="60dp"
+                  android:layout_height="60dp"
+                  android:paddingLeft="5dp"
+                  android:paddingRight="5dp"
+                  android:layout_marginTop="10dp"
+                  android:paddingBottom="5dp"
+                  >
+              <ImageView
+                  android:id="@+id/itemCGCImage"
+                  android:layout_gravity="left|center" 
+                  android:scaleType="centerCrop"
+                  android:layout_width="50dp"
+                  android:layout_height="50dp"
+                  />
+              </LinearLayout>
+          
+      <TableLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="0dip"
+          android:layout_gravity="top"
+            >
+              
+          <TableRow>
+            <TextView
+                android:id="@+id/itemClanPrezime"
+               	android:layout_width="180dp"
+               	android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="3dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:maxLines="3"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                 />
+            
+        	</TableRow>
+        
+     	<TableRow>
+     	    
+        	<TableLayout
+        	    android:id="@+id/itemClanDatumiTable"
+          		android:layout_width="fill_parent"
+          		android:layout_height="wrap_content"
+          		android:paddingTop="0dip"
+          		android:layout_gravity="top"
+           		 >  
+          
+        			<TableRow>
+             		<TextView
+                		android:id="@+id/txtUplaceno"
+                		android:layout_width="match_parent"
+                		android:layout_height="match_parent"
+                		android:layout_alignParentLeft="true"
+                		android:text="@string/txtUplaceno"
+                 		/>
+             
+       				<TextView
+                		android:id="@+id/txtDatumUplata"
+                		android:layout_width="match_parent"
+                		android:layout_height="match_parent"
+                		android:layout_alignParentLeft="true"
+                 		/>
+       
+         			</TableRow>
+         
+          			<TableRow>
+             
+           			<TextView
+                		android:id="@+id/txtVrijediDo"
+                		android:layout_width="match_parent"
+                		android:layout_height="match_parent"
+                		android:layout_alignParentLeft="true"
+                		android:text="@string/txtVrijediDo"
+                 		/>
+           
+          			<TextView
+                		android:id="@+id/txtDatumVrijediDo"
+                		android:layout_width="match_parent"
+                		android:layout_height="match_parent"
+                		android:layout_alignParentLeft="true"
+                 	/>
+         
+        			</TableRow>
+        			
+          				<TableRow>
+             
+           			<TextView
+                		android:id="@+id/txtIznosClanarinaLabela"
+                		android:layout_width="match_parent"
+                		android:layout_height="match_parent"
+                		android:layout_alignParentLeft="true"
+                		android:text="@string/txtIznosClanarinaLabela"
+                 		/>
+           			
+           		<TextView
+                		android:id="@+id/txtIznosClanarina"
+                		android:layout_width="match_parent"
+                		android:layout_height="match_parent"
+                		android:layout_alignParentLeft="true"
+                 		/>
+           
+    
+        			</TableRow>
+        
+      			</TableLayout>
+      			
+       <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="0dip" >
+          
+               
+          <TableRow>
+            
+             <CheckBox
+        android:id="@+id/cbOtvoriDatum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableLayout1"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left|center" 
+        android:layout_marginTop="0dp"/>
+             
+           				</TableRow>
+ 
+      			</TableLayout>
+      			
+      			</TableRow>
+      	 </TableLayout>
+      
+    </TableRow>
+ 
+      </TableLayout>
+
+</RelativeLayout>

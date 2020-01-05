@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewTermini"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    
+   <TextView
+        android:id="@+id/twTerminClanNaslov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="0dp"
+        style="@style/NaslovText"
+        android:text="@string/twTerminClanNaslov" 
+        /> 
+    
+  <TextView
+        android:id="@+id/twTerminGrupaPodaci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        style="@style/NaslovText"
+        android:textSize="22dp"
+         />
+  
+  
+    <TableLayout
+        android:id="@+id/tableUnosTerminClanE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingTop="0dip">
+    
+      <TableRow>
+
+   <Button
+        android:id="@+id/btnTerminPromjenaDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="5dip"
+        android:layout_marginLeft="0dp"
+        android:drawableLeft="@drawable/calendar"
+        android:background="@android:color/transparent" />
+   
+  
+    <TextView
+        android:id="@+id/twTerminPromjenaIzabraniDatum"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="left"
+        android:textSize="17dp"
+        />
+  
+      </TableRow>
+      
+     </TableLayout>
+  
+   <CheckBox
+      android:id="@+id/cbSelectAll"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/SelectAll"/>
+        
+   
+
+    
+   <LinearLayout
+                android:id="@+id/linear_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+
+    
+     <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical">
+   
+
+
+       
+</LinearLayout>
+
+      <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right|center_vertical">
+      
+     
+      <TableLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="25dip"
+         android:layout_gravity="right" >
+        
+     <TableRow>
+
+   
+    <Button
+        android:id="@+id/btnUnesiTerminClan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        style="@style/ButtonTextNoShadow"
+        android:background="@drawable/button_save"
+        android:gravity="center"
+        android:drawableRight="@drawable/save"
+        android:text="@string/btnTxtUnesiClan" />
+    
+    
+      <Button
+        android:id="@+id/btnBrisiTermin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_delete_tamni"
+        android:textSize="20dp"
+        style="@style/ButtonTextNoShadow"
+        android:gravity="center"
+        android:drawableRight="@drawable/ic_action_discard_white"
+        android:text="@string/txtClanDetaljBrisi" />
+      
+       </TableRow>
+       
+       </TableLayout> 
+       
+     </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

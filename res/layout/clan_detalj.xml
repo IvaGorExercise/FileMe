@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:background="@color/bijela"
+    android:id="@+id/ClanDetaljLayout">
+    
+
+    <TableLayout
+        android:id="@+id/tableLayoutSaSlikom1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingTop="0dip" >
+        
+       <TableRow>
+           
+          <TableLayout
+        android:id="@+id/tableLayoutSaSlikom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+          
+       <TableRow >
+              
+           
+       <TableLayout
+        android:id="@+id/tableLayoutSaSlikom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+        
+       <TableRow >             
+       <TextView
+        android:id="@+id/txtClanDetaljPrezime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:textSize="25dp"
+    	android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      </TableRow>
+      
+        <TableRow>
+             
+          <TextView
+        android:id="@+id/txtClanDetaljIme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:textSize="25dp"
+    	android:textStyle="bold" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+          
+      </TableRow>
+           
+        </TableLayout>
+           
+
+       <ImageView
+                  android:id="@+id/imgClanDetaljImage"
+                  android:layout_gravity="right|top" 
+                  android:scaleType="centerCrop"
+                  android:layout_width="90dp"
+                  android:layout_height="90dp"
+                  />
+                
+        
+          </TableRow>
+              
+    </TableLayout>
+                
+       </TableRow>
+
+   </TableLayout>
+    
+    
+   
+   <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingTop="5dip" >
+       
+         <TableRow > 
+             
+         
+             
+         </TableRow>
+                 
+       <TableRow > 
+          <RelativeLayout >
+           <TextView
+        android:id="@+id/txtClanDetaljSpol1"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:gravity="bottom"
+        style="@style/OrangeText"
+        android:text="@string/txtClanDetaljSpol1" />
+     
+    	<TextView
+        android:id="@+id/txtClanDetaljSpol"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:gravity="bottom"
+        style="@style/SiviText"
+        android:textSize="17dp"
+        android:layout_toRightOf="@id/txtClanDetaljSpol1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+          </RelativeLayout>
+       </TableRow>
+    
+    <TableRow >  
+    <RelativeLayout >
+    <TextView
+        android:id="@+id/txtClanDetaljDatumRodjenja1"
+        android:layout_width="105dp"
+        android:layout_height="25dp"
+        android:gravity="bottom"
+        style="@style/OrangeText"
+        android:text="@string/txtClanDetaljDatumRodjenja1" />
+    
+    <TextView
+        android:id="@+id/txtClanDetaljDatumRodjenja"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:gravity="bottom"
+        style="@style/SiviText"
+        android:textSize="17dp"
+        android:layout_toRightOf="@id/txtClanDetaljDatumRodjenja1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+        <TextView
+        android:id="@+id/txtClanDetaljKolikoImaGodina"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="bottom"
+        style="@style/SiviText"
+        android:textSize="17dp"
+        android:layout_toRightOf="@id/txtClanDetaljDatumRodjenja"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+        </RelativeLayout>
+     </TableRow>
+     
+       <TableRow >  
+         
+           <RelativeLayout >
+    <TextView
+        android:id="@+id/txtClanDetaljTelefon1"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        android:gravity="bottom"
+         style="@style/OrangeText"
+        android:text="@string/txtClanDetaljTelefon1"  />
+    
+        <TextView
+        android:id="@+id/txtClanDetaljTelefon"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:gravity="bottom"
+        style="@style/SiviText"
+        android:textSize="17dp"
+        android:layout_toRightOf="@id/txtClanDetaljTelefon1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/twTxtGrupaOpis"  />
+    
+        </RelativeLayout>
+
+       </TableRow>
+       
+        <TableRow >  
+          <RelativeLayout >
+       <TextView
+        android:id="@+id/txtClanDetaljEmail1"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+          android:gravity="bottom"
+        style="@style/OrangeText"
+        android:text="@string/txtClanDetaljEmail1" />
+        
+      <TextView
+        android:id="@+id/txtClanDetaljEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:gravity="bottom"
+        style="@style/SiviText"
+        android:textSize="17dp"
+        android:layout_toRightOf="@id/txtClanDetaljEmail1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+      
+        </RelativeLayout>
+         </TableRow>
+         
+           <TableRow >  
+      
+   <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+      
+             
+     <TextView
+        android:id="@+id/txtClanDetaljAdresa1"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+          android:gravity="bottom"
+        style="@style/OrangeText"
+        android:text="@string/txtClanDetaljAdresa1"  />
+     
+      <TextView
+        android:id="@+id/txtClanDetaljAdresa"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:gravity="bottom"
+        style="@style/SiviText"
+        android:textSize="17dp"
+        android:layout_weight="1"
+        android:layout_toRightOf="@id/txtClanDetaljAdresa1"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+       </RelativeLayout>
+         </TableRow>
+         
+         <TableRow >  
+     
+             
+     <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="20dp" >
+ 
+       <TextView
+        android:id="@+id/txtClanDetaljGrupe1"
+        android:layout_width="55dp"
+        style="@style/OrangeText"
+        android:layout_height="25dp"
+        android:gravity="bottom"/>
+       
+        <TextView
+        android:id="@+id/txtClanDetaljGrupe"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:gravity="bottom"
+        style="@style/SiviText"
+        android:textSize="17dp"
+        android:layout_weight="1"
+        android:layout_toRightOf="@id/txtClanDetaljGrupe1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+  </RelativeLayout>
+        
+       </TableRow>
+       
+  
+</TableLayout>
+      
+  <LinearLayout
+     android:id="@+id/ClanDetaljLayoutZaKriterije"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    >
+         
+         <TableLayout
+            android:id="@+id/tableLayoutZaKriterije"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+ >
+        </TableLayout>
+    
+        </LinearLayout>
+        
+  
+    <TableLayout
+           android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="20dip">
+         <TableRow >  
+     <TextView
+        android:id="@+id/txtClanDetaljOpis1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:text="@string/txtClanDetaljOpis1"  />
+      </TableRow>
+      
+      <TableRow>
+      <TextView
+        android:id="@+id/txtClanDetaljOpis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/SiviText"
+        android:textSize="17dp"
+        android:layout_toRightOf="@id/txtClanDetaljOpis1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+         </TableRow>
+  
+    </TableLayout>
+  
+      
+      
+  <TableLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="25dip"
+          android:layout_gravity="bottom" >
+            <TableRow>
+                
+                
+     <Button
+        android:id="@+id/btnClanDetaljUredi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp" 
+        android:gravity="center"
+        style="@style/ButtonTextNoShadow"
+        android:background="@drawable/button_save"
+        android:drawableRight="@drawable/ic_action_edit_white"
+        android:text="@string/txtClanDetaljUredi" />
+     
+     
+    <Button
+        android:id="@+id/btnClanDetaljBrisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        style="@style/ButtonTextNoShadow"
+        android:gravity="center"
+        android:background="@drawable/button_delete_tamni"
+        android:drawableRight="@drawable/ic_action_discard_white"
+        android:text="@string/txtClanDetaljBrisi" />
+      
+             </TableRow> 
+       </TableLayout> 
+      
+</LinearLayout>
+
+</ScrollView>

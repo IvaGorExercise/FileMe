@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+       
+            <item 
+            android:id="@+id/izb_kolekcija"
+            android:icon="@drawable/ic_action_navigation_menu"
+             android:orderInCategory="999"
+            android:showAsAction="ifRoom"
+            android:title="@string/IzbornikKolekcija" >
+            
+             <menu>
+                    <item 
+            			android:id="@+id/izb_clanarina"
+            			android:icon="@drawable/ic_clanarina"
+            			android:showAsAction="ifRoom"
+            			android:title="@string/drawerMenuClanarina" />
+                   <item 
+            			android:id="@+id/izb_isteklaclanarina"
+            			android:icon="@drawable/ic_istekla"
+            			android:showAsAction="ifRoom"
+            			android:title="@string/drawerMenuIsteklaClanarina" />
+                     <item 
+            			android:id="@+id/izb_popisclanova"
+            			android:icon="@drawable/ic_social_group"
+            			android:showAsAction="ifRoom"
+            			android:title="@string/drawerMenuPopisClanova" />
+                       <item 
+            			android:id="@+id/izb_unosclanova"
+            			android:icon="@drawable/ic_social_add_person"
+            			android:showAsAction="ifRoom"
+            			android:title="@string/drawerMenuUnosClanova" />
+                       
+                        <item 
+            			android:id="@+id/izb_evidencijanastava"
+            			android:icon="@drawable/ic_social_notifications"
+            			android:showAsAction="ifRoom"
+            			android:title="@string/drawerMenuEvidencijaNastave" />
+                        
+                       <item 
+            			android:id="@+id/izb_izlaz"
+            			android:icon="@drawable/ic_action_navigation_close"
+            			android:showAsAction="ifRoom"
+            			android:title="@string/drawerMenuIzlazIzAplikacije" />
+            </menu>
+       </item>
+  
+    </menu>
+
+    
+    

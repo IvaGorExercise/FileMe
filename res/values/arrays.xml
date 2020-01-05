@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <resources>
+        <string-array name="lista">
+            <item >@string/vrstaEvidencijeJedan</item>
+            <item >@string/vrstaEvidencijeDva</item>
+        </string-array>
+        <string-array name="vrijednosti_liste">
+            <item >1</item>
+            <item >2</item>
+        </string-array>
+        
+        <string-array name="jezik">
+            <item>Croatian</item>
+            <item>English</item>
+        </string-array>
+        <string-array name="vrijednosti_jezik">
+            <item >1</item>
+            <item >2</item>
+        </string-array>
+        
+       <string-array name="menudrawer_lista">
+        <item >@string/drawerMenuClanarina</item>
+        <item >@string/drawerMenuIsteklaClanarina</item>
+	    <item >@string/drawerMenuPopisClanova</item>
+		<item >@string/drawerMenuUnosClanova</item>
+		<item >@string/drawerMenuClanoviPoGrupama</item>
+		<item >@string/drawerMenuGrupe</item>
+		<item >@string/drawerMenuAtributi</item>
+		<item >@string/drawerMenuEvidencijaNastave</item>
+		<item >@string/drawerMenuIzlazIzAplikacije</item>
+		<item >@string/drawerMenuPostavkeAplikacije</item>
+		<item >@string/drawerMenuPostavkeUpute</item>
+		<item >@string/drawerMenuUnosLicence</item>
+	
+		
+	</string-array>
+    </resources>

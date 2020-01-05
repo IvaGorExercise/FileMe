@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical" >
+    
+   <TextView
+        android:id="@+id/twKategorijaIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/OrangeText"
+        android:text="@string/twTxtKategorijaIme" />
+
+    <EditText
+        android:id="@+id/etKategorijaIme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+       <TextView
+        android:id="@+id/twKategorijaOpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:text="@string/twTxtKategorijaOpis" />
+       
+
+    <EditText
+        android:id="@+id/etKategorijaOpis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:maxLength="100"
+        android:ems="10" >
+    </EditText>
+    
+      
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical">
+   
+        <Button
+        android:id="@+id/btnUnesiKategoriju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="22dp"
+        style="@style/ButtonTextNoShadow"
+        android:background="@drawable/button_save"
+        android:gravity="center"
+        android:drawableRight="@drawable/save"
+        android:text="@string/btnTxtUnesiKategoriju" /> 
+
+</LinearLayout>
+
+ 
+
+ 
+
+
+     
+</LinearLayout>

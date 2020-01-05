@@ -1,0 +1,71 @@
+  <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+           android:paddingTop="0dip" android:layout_gravity="top"
+              android:background="@drawable/siva_row"
+         >
+        <TableRow>
+            <LinearLayout 
+                  android:layout_width="60dp"
+                  android:layout_height="60dp"
+                  android:paddingLeft="10dp"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  >
+              <ImageView
+                  android:id="@+id/clanImage"
+                  android:layout_gravity="left|top" 
+                  android:scaleType="centerCrop"
+                  android:layout_width="50dp"
+                  android:layout_height="50dp"
+                  />
+              </LinearLayout>
+  <TableLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="0dip"
+          android:layout_gravity="top"
+            >
+            <TableRow>      
+
+               <TextView
+                   android:id="@+id/txtClanIme"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left|center_vertical"
+                   android:layout_marginLeft="10dip"
+                   android:layout_marginTop="4dip"
+                   android:layout_span="1"
+                   android:layout_weight="1"
+                   android:textColor="#000000"
+                   android:textSize="16sp" />
+               
+              <TextView
+                   android:id="@+id/txtClanPrezime"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left|center_vertical"
+                   android:layout_marginLeft="10dip"
+                   android:layout_marginTop="4dip"
+                   android:layout_span="1"
+                   android:layout_weight="1"
+                   android:textColor="#000000"
+                   android:textSize="16sp" />
+
+          </TableRow>
+          <TableRow>   
+                 <TextView
+                    android:id="@+id/txtGrupaIme"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="13sp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="4dip"
+                    android:gravity="left"/>
+              </TableRow>
+            </TableLayout>
+       </TableRow>
+</TableLayout>

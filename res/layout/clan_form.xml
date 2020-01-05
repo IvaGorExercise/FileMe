@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout 
+        android:id="@+id/Layout1"
+         android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:paddingLeft="5dp"
+    	android:paddingRight="5dp"
+    	android:paddingTop="5dp"
+    	android:paddingBottom="5dp"
+    	android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/twClanIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:text="@string/twTxtClanIme" />
+
+    <EditText
+        android:id="@+id/etClanIme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        style="@style/SiviText"
+        android:ems="10" >
+
+    
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/twClanPrezime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:text="@string/twTxtClanPrezime" />
+
+    <EditText
+        android:id="@+id/etClanPrezime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SiviText"
+        android:inputType="textCapWords"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/twClanTelefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:text="@string/twTxtClanTelefon" />
+
+    <EditText
+        android:id="@+id/etClanTelefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SiviText"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/twClanEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:text="@string/twTxtClanEmail" />
+
+    <EditText
+        android:id="@+id/etClanEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SiviText"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/twClanAdresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:text="@string/twTxtClanAdresa" />
+
+    <EditText
+        android:id="@+id/etClanAdresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        style="@style/SiviText"
+        android:ems="10"
+        android:singleLine="false" />
+    
+          <TextView
+        android:id="@+id/twDatum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:text="@string/twDatumRodjenja" />     
+        
+        
+  <EditText
+        android:id="@+id/etIzabraniDatum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SiviText"
+        android:editable="false"
+   		android:focusable="true"
+   		android:paddingBottom="10dp"
+        android:ems="10"/>
+    
+     <TextView
+        android:id="@+id/twClanOpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:text="@string/twTxtClanOpis" />
+
+    <EditText
+        android:id="@+id/etClanOpis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/SiviText"
+        android:inputType="textCapSentences"
+        android:ems="10"/>
+   
+
+  
+  
+     <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingTop="5dip"
+        android:paddingBottom="12dip" >
+
+        <TableRow>
+            
+   <TextView
+        android:id="@+id/twSpol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OrangeText"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/twSpol" />
+            
+      <RadioGroup
+        android:id="@+id/rgSpol"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="right|center_vertical"
+        >
+      
+    <RadioButton
+        android:id="@+id/rbZena"
+         android:layout_marginRight="30dp"
+         android:gravity="right|center_vertical"
+        android:text="@string/rbZena" />
+    
+       <RadioButton
+        android:id="@+id/rbMusko"
+         android:gravity="right|center_vertical"
+        android:text="@string/rbMusko" />
+       
+    </RadioGroup>
+            
+   </TableRow> 
+     
+   </TableLayout>
+  
+
+   <LinearLayout
+    android:id="@+id/ClanFormLayoutZaKriterij"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+</LinearLayout>
+ 
+      
+
+   <LinearLayout
+     android:id="@+id/ClanFormLayoutZaGrupe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical" >
+        
+	</LinearLayout>
+   
+   
+   <LinearLayout
+     android:id="@+id/ClanFormLayoutZaSliku"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    >
+	
+      
+     <Button
+        android:id="@+id/btnSelectPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="3dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        style="@style/OrangeText"
+        android:background="@drawable/button_orange"
+        android:text="@string/btnSelectPhoto" />
+     
+    
+        
+    <ImageView
+            android:id="@+id/viewImage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"/>
+       
+
+  
+  </LinearLayout>
+  
+       
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right|center_vertical">
+   
+    <Button
+        android:id="@+id/btnUnesiClana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        style="@style/ButtonTextNoShadow"
+        android:background="@drawable/button_save"
+        android:gravity="center"
+        android:drawableRight="@drawable/save"
+        android:text="@string/btnTxtUnesiClan" /> 
+
+       
+</LinearLayout>
+  
+  
+  
+        
+    <TextView
+        android:id="@+id/txtOdabrani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+   
+
+    <TextView
+        android:id="@+id/txtUpisaniClan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/twTxtUpisaniClan"/>
+    
+  
+   
+  <TextView
+        android:id="@+id/txtPopisGrupaZaClana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    </LinearLayout>
+
+</ScrollView>

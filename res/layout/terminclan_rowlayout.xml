@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTerminClanUnos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/bijela" >
+
+    <TableLayout
+        android:id="@+id/tableTerminClan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="0dip" >
+
+        <TableRow>
+
+               <LinearLayout 
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:paddingLeft="5dp"
+                  android:paddingRight="5dp"
+                  android:paddingTop="5dp"
+                  android:paddingBottom="5dp"
+                  >
+              <ImageView
+                  android:id="@+id/itemCGCTerminClan"
+                  android:layout_gravity="left|top" 
+                  android:scaleType="centerCrop"
+                  android:layout_width="35dp"
+                  android:layout_height="35dp"
+                  />
+              </LinearLayout>
+          
+      <TableLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="0dip"
+          android:layout_gravity="center"
+            >
+              
+          <TableRow>
+            <TextView
+                android:id="@+id/itemTerminClanPrezime"
+               	android:layout_width="190dp"
+               	android:layout_height="wrap_content"
+               	android:paddingTop="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="3dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:maxLines="3"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                 />
+            
+      			
+       <TableLayout
+        android:id="@+id/tableLayout1TerminClan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingTop="5dip" >
+          
+            
+      <TableRow>
+             
+ 
+           				   
+             <CheckBox
+        android:id="@+id/cbPrisutan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="0dp"/>
+             
+        </TableRow>
+     
+ 
+      			</TableLayout>
+      			
+      			</TableRow>
+      	 </TableLayout>
+      
+    </TableRow>
+ 
+      </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/siva_row" >
+
+   
+    <TableLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="0dip"
+          android:layout_gravity="bottom" >
+          
+           
+      <TableRow>
+              
+      <TextView
+        android:id="@+id/itemGrupaIme"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        style="@style/OrangeText"
+        android:text="@string/Opis"  />
+         </TableRow>
+           
+ 		<TableRow>   
+      <TextView
+        android:id="@+id/itemGrupaOpis"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dip"
+        android:layout_below="@id/itemGrupaIme" /> 
+          </TableRow>
+                 
+
+          <TableRow>
+                    <TableLayout
+           android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="25dip"
+          android:layout_gravity="bottom" > 
+           <TableRow>
+               
+                 <Button
+        android:id="@+id/btnGrupaUredi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="0dip"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" 
+        android:layout_marginBottom="10dp"
+        style="@style/ButtonTextNoShadow"
+        android:gravity="center"
+        android:drawableRight="@drawable/ic_action_edit_white"
+        android:background="@drawable/button_save"
+        android:text="@string/txtClanDetaljUredi" />
+     
+     <Button
+        android:id="@+id/btnGrupaBrisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="0dip"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        style="@style/ButtonTextNoShadow"
+        android:gravity="center"
+        android:drawableRight="@drawable/ic_action_discard_white"
+        android:background="@drawable/button_delete_tamni"
+        android:text="@string/txtClanDetaljBrisi" />
+               
+           </TableRow>
+           </TableLayout>       
+
+             </TableRow> 
+       </TableLayout> 
+       
+
+               
+</RelativeLayout>

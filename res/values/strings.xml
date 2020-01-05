@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FileMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnTxtUnesiClan">Spremi </string>
+    <string name="btnTxtDohvatiClan">Dohvati postojeće</string>
+   	<string name="twTxtUpisaniClan"></string>
+   	<string name="twTxtClanIme">Ime:</string>
+    <string name="twTxtClanPrezime">Prezime:</string>
+    <string name="twTxtClanTelefon">Telefon:</string>
+    <string name="twTxtClanEmail">Email:</string>
+	<string name="twTxtClanAdresa">Adresa:</string>
+	<string name="twTxtClanOpis">Opis člana:</string>
+	<string name="twSpol">Spol:</string>
+	<string name="twDatumRodjenja">Datum rođenja:</string>
+	<string name="btnSetDate">Odaberi</string>
+	<string name="rbZena">Ž</string>
+	<string name="rbMusko">M</string>
+	<string name="btnSelectPhoto">Odaberite sliku</string>
+	<string name="izaberite">-----------Grupe-----------</string>
+	
+	
+	<string name="twTxtGrupaIme">Ime grupe</string>
+	<string name="twTxtGrupaOpis">Opis grupe</string>
+	<string name="btnTxtUnesiGrupu">Spremi </string>
+    <string name="btnTxtDohvatiGrupe">Dohvati postojeće grupe</string>
+   <string name="twTxtUpisanaGrupa">Grupe sa forme:</string>
+   
+   	
+	<string name="twTxtKategorijaIme">Ime atributa</string>
+	<string name="twTxtKategorijaOpis">Opis atributa</string>
+	<string name="btnTxtUnesiKategoriju">Spremi </string>
+    <string name="btnTxtDohvatiKategorije">Dohvati postojeće atribute</string>
+   <string name="twTxtUpisanaKategorija">Atributi sa forme:</string>
+   
+   	<string name="rijecSpol">Spol:</string>
+   	<string name="rijecDatumRodjenja">Datum rođenja: </string>
+   	<string name="rijecTelefon">Telefon: </string>
+   	<string name="rijecEmail">Email: </string>
+   	<string name="rijecAdresa">Adresa:</string>
+   	<string name="rijecGrupeZaClana">Grupe: </string>
+   	
+   	
+   	<string name="txtClanDetaljUredi">Uredi</string>
+   	<string name="txtClanDetaljBrisi">Briši</string>
+   	
+   	<string name="txtUplaceno">uplaćeno: </string>
+   	<string name="txtVrijediDo">vrijedi do: </string>
+   	
+   	<string name="twitemClanPauziraj">Pauziran</string>
+   	
+   	<string name="txtClanDetaljSpol1">Spol: </string>
+   	<string name="txtClanDetaljDatumRodjenja1">Datum rođenja: </string>
+   	<string name="txtClanDetaljTelefon1">Telefon: </string>
+   	<string name="txtClanDetaljEmail1">E-mail: </string>
+   	<string name="txtClanDetaljAdresa1">Adresa: </string>
+   	<string name="txtClanDetaljOpis1">Opis člana:</string>
+   	<string name="txtClanDetaljGrupe1">Grupe: </string>
+   	
+   	<string name="Opis">Opis:</string>
+   	
+   	<string name="NemaGrupa">Ne postoji niti jedna grupa. \n Dodajte grupu pritiskom na znak <b> + </b>!</string>
+   	<string name="NemaClanova">Ne postoji niti jedan član. \n Dodajte člana pritiskom na znak <b> + </b>!</string>
+   	<string name="NemaClanaPoGrupama">Ne postoji niti jedna grupa. \n Dodajte grupu pritiskom na znak <b> + </b>!</string>
+   	<string name="NemaAtributa">Ne postoji niti jedan atribut. \n Dodajte atribut pritiskom na znak <b> + </b>!</string>
+   	
+   	
+   	   	
+   	<string name="uputeStoJeEvidencijaNaslov">Što je FileMe?</string>
+   	<string name="uputeStoJeEvidencijaTekst">
+   	   FileMe je aplikacija namijenjena svima koji vode razne aktivnosti koje uključuju evidenciju članstva i uplata članarina kao što su: sportski treneri, treneri pilatesa, plesa, voditelji glazbenih, likovnih i ostalih tečajeva.
+   	   U aplikciji je moguće: definirati grupe aktivnosti, unositi članove, podatke o članovima, koji je član upisan u koju grupu ili grupe, te voditi evidenciju o uplati članarina.
+   	   Moguće je definirati i svoje atribute (podatke) o članovima koji su specifični za određene aktivnosti.
+   	    \n  \n <b><i>PRIJE PRVOG KORIŠTENJA APLIKACIJE:</i></b>\n Potrebno je unijeti grupe i atribute te u <b>Postavkama aplikacije</b> odabrati vrstu evidencije (1. po mjesecu ili 2. od datum do datuma). Predefinirana vrsta evidencije je 1. evidencija po mjesecu. \n Ukoliko se vrsta evidencije ne mijenja, više nikad nije potrebno mijenjati tu opciju u postavkama aplikacije.
+   	    Ako se vrsta evidencije mijenja tokom vremena, a već postoje uneseni podaci o članarinam, može doći do netočnog prikaza prije unesenih podatka.
+   	    
+   	</string>
+   	<string name="uputeKategorijeNaslov">Što su Atributi?</string>
+   	<string name="uputeKategorijeTekst">Uz postojeće predefinirane atribute (podatke) o članovima kao što su: ime, prezime, adresa, datum rođenja, spol... korisnik aplikacije može definirati i svoje atribute koji odgovarju vrsti aktivnosti kojom se bavi npr. za sportaše: visina, težina; za glazbenike: raspon glasa. </string>
+   	<string name="uputeGrupeNaslov">Što su Grupe?</string>
+   	<string name="uputeGrupeTekst"> Grupe su aktivnosti u koje su upisani članovi npr: početna grupa, napredna, pilates, zumba1, zumba2, juniori, seniori...</string>
+   	<string name="uputeClanarinaNaslov">Što su Postavke aplikcije?</string>
+   	<string name="uputeClanarinaTekst">Aplikacija bilježi članarinu na dva načina ovisno o odabiru vrste evidencije u Postavkama aplikcije.  \n (1) Ako je odabrana opcija evidencije po mjesecu, ako je datum uplate bilo koji dan u mjesecu, članarina vrijedi do zadnjeg dana tog mjeseca.
+   	    \n (2) Ako je odabrana evidencija članarina od datuma do datuma tada, ako je datum uplate bilo koji dan u mjesecu, članarina vrijedi do istog tog datum u slijedećem mjesecu.
+   	    U slučaju da u tom mjesecu nema tog datuma članarina će vrijediti do maksimalnog datuma u tom mjesecu.
+   	    </string>
+   	
+   	
+	<string-array name="glavnimenu_lista">
+	    <item >Popis članova</item>
+		<item >Članovi</item>
+		<item >Grupe</item>
+		<item >Moji atributi</item>
+		<item >Članovi po grupama</item>
+		<item >Članarina</item>
+		<item >Postavke aplikacije</item>
+	</string-array>
+	
+	
+	<string name="imeAplikacije">FileMe</string>
+	
+	<string name="fragmentClanarina">Evidencija članarina</string>
+	<string name="fragmentIstekleClanarine"> Istekle članarine</string>
+	<string name="fragmentPopisClanova">Popis članova</string>
+	<string name="fragmentUnosClanova">Unos članova</string>
+	<string name="fragmentClanoviPoGrupm">Članovi po grupama</string>
+	<string name="fragmentGrupa">Grupe</string>
+	<string name="fragmentKategorija">Moji atributi</string>
+	<string name="fragmentPostavkeAplikacije">Postavke aplikacije</string>
+	<string name="fragmentUpute">Upute</string>
+	<string name="fragmentClanDetalj">Detalji o članu</string>
+	<string name="fragmentUnosTermina">Unos nastavnog sata</string>
+	<string name="fragmentUnosTerminClan">Unos članova na sat</string>
+	<string name="fragmentUnosTerminList">Lista održanih satova</string>
+	<string name="fragmentUnosKoda">Licenca</string>
+	
+
+	<string name="dialogCancel">Odustani</string>
+	
+	<string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    
+   <string name="Snimi">Snimi</string>
+   <string name="SlikaIzAlbuma">Slika iz albuma</string>
+   <string name="dodajSliku">Dodaj sliku!</string>
+    
+   <string name="validaciaUnesite">Unesite</string>
+   <string name="validacijaIme">ime</string>
+   <string name="validacijaPrezime">prezime</string>
+   <string name="validacijaImeIPrezime">ime i prezime</string>
+   <string name="validacijaEmail">email mora sadržavati @ i domenu!</string>
+   <string name="validacijaTerminDatum">datum </string>
+   <string name="validacijaTerminRedniBroj">redni broj ne smije biti 0 ili prazan</string>
+   <string name="validacijaTerminGrupa">grupu, </string>
+    <string name="validacijaKodaNeispravan">Licenca neispravna </string>
+     <string name="validacijaKodaNijeUnesen"> Unesite licencu</string>
+   
+       
+   <string name="Da">Da</string>
+   <string name="Spremi">Spremi</string>
+   <string name="Odustani">Odustani</string>
+   <string name="brisiClana">Da li želite obrisati člana i SVE podatke o članu, grupama i članarinama za tog člana? Nakon brisanja jedini naćin da se ponovo dobiju podaci o članu je da se on i svi njegovi podci ponovo unesu!!! </string>
+   <string name="brisiGrupa">Da li ste sigurni da želite obrisati grupu? Brisanjem grupe nepovratno se brišu i podaci o članovima upisanim u tu grupu te o članarinama za tu grupu!!!</string>
+   <string name="brisiKategorija">Da li ste sigurni da želite obrisati atribut? Brisanjem atributa nepovratno se brišu i podaci o članovima koji imaju upisan podatak za taj atribut!!!</string>
+   <string name="brisiTermin">Da li ste sigurni da želite obrisati nastavni sat i članove sa sata? Brisanjem sata nepovratno se brišu i podaci o članovima koji su bili na tom satu!!!</string>
+   <string name="BrisiClanarina">Jeste li sigurni da želite obrisati ovu uplatu članarine?</string>
+   
+   
+   <string name="clanarinaZa">Članarina za: </string>
+   <string name="isteklaClanarina">Istekla na: </string>
+   <string name="terminiZa">Satovi za: </string>
+   
+  <string name="drawerMenuClanarina">Članarina</string>
+   <string name="drawerMenuIsteklaClanarina">Istekle članarine</string>
+    <string name="drawerMenuPopisClanova">Popis članova</string>
+     <string name="drawerMenuUnosClanova">Unos članova</string>
+      <string name="drawerMenuClanoviPoGrupama">Članovi po grupama</string>
+       <string name="drawerMenuGrupe">Grupe</string>
+        <string name="drawerMenuAtributi">Moji atributi</string>
+           <string name="drawerMenuEvidencijaNastave">Evidencija nastave</string>
+         <string name="drawerMenuPostavkeAplikacije">Postavke aplikacije</string>
+          <string name="drawerMenuPostavkeUpute">Upute</string>
+          <string name="drawerMenuUnosLicence">Licenca</string>
+           <string name="drawerMenuIzlazIzAplikacije">Izlaz</string>
+       
+
+  <string name="vrstaEvidencijeJedan">1. EVIDENCIJA ČLANARINA PO MJESECU. Ako je datum uplate bilo koji dan u mjesecu, članarina vrijedi do zadnjeg dana tog mjeseca.</string>
+  <string name="vrstaEvidencijeDva">2. EVIDENCIJA ČLANARINA OD DATUMA DO DATUMA. Ako je datum uplate bilo koji dan u mjesecu članarina vrijedi do istog tog datum u slijedećem mjesecu. U slučaju da u tom mjesecu nema tog datuma članarina će vrijediti do maksimlnog datuma u tom mjesecu.</string>
+  
+    <string name="Jezik">A) JEZIK</string>
+    <string name="VrstaEvidencije">B) VRSTA EVIDENCIJE</string>
+    <string name="Odaberite">odaberite   >>></string>
+    <string name="odabraniJezik">Odabrani jezik</string>
+    <string name="odabranaVrstaEvidencije">Odabrana vrsta evidencije</string>
+    
+   
+  <string name="twTerminNaslov">Unos novog nastavnog sata</string>
+  <string name="twDatumTermina">Datum:</string>
+  <string name="twIspraviTermina">Ispravi datum:</string>
+  <string name="twSpinnerIzaberiGrupa">Izaberite grupu:</string>
+  <string name="twTerminRedniBroj">Redni broj sata sa izabranom grupom na taj datum:</string>
+  <string name="twTerminClanNaslov">Prisutni na satu</string>
+  
+ <string name="SelectAll">Odaberi sve</string>
+ 
+ <string name="Uredi">Uredi</string>
+ 
+ <string name="Loading">Loading...</string>
+ 
+ <string name="IzbornikNoviClan">Novi član</string>
+ <string name="IzbornikNovaGrupa">Nova grupa</string>
+ <string name="IzbornikKolekcija">Izbornik</string>
+ <string name="IzbornikKategorija">Novi atribut</string>
+ <string name="IzbornikNoviTermin">Novi nastavni sat</string>
+ <string name="IzbornikPregledTermina">Lista održanih satova</string>
+  
+  
+ <string name="PostaviPauziraj">Jeste li sigurni da za ovog člana u ovoj grupi trenutno ne želite pratiti zakasnine i postaviti ga kao pauziranog?</string>
+ <string name="MakniPauziraj">Jeste li sigurni da za ovog člana u ovoj grupi ponovo želite pratiti zakasnine i odpauzirati ga?</string>
+ 
+ 
+  <string name="LicencaBroj">Broj licence:</string>
+  <string name="LicencaDatum">Datum licence:</string>
+ <string name="UnesiteLicencu">Unesite licencu:</string>
+ 
+ <string name="pristojnaGreska">Oprostite, došlo je do greške. \n \n Sorry, some error ocured.</string>
+ <string name="greskaZatvoriAplikciju">Restartaj aplikaciju \n Restart aplication </string>
+ 
+  <string name="brojClanova">Broj članova: </string>
+  
+  <string name="uneseniPodaciZa">uneseni podaci za: </string>
+  
+  
+  
+  
+  
+  
+  
+  <string name="txtIznosClanarinaLabela">iznos: </string>
+  <string name="twTxtGrupaCijena">Cijena</string>
+  <string name="twTxtGrupaCijenaValuta">Valuta</string>
+  <string name="twTxtGrupaCijenaNaFormi">Postavi ovu cijenu na formi za unos članarina kao default</string>
+  
+ <string name="txtFormaUnosClnarinaDatumUplate">Datum uplate: </string>
+ <string name="txtFormaUnosClnarinaDatumUplateIzaberi">izaberi drugi datum</string>
+ <string name="txtFormaUnosClnarinaIznos">Iznos</string>
+ 
+  <string name="Obrisi">Obriši</string>
+  
+  <string name="NespremljenePromjeneClan">Nespremljene promjene za člana!</string>
+  <string name="IzlazNespremljeniClan">Jeste li sigurni da želite izaći iz prozora?</string>
+  
+  <string name="IzaberiteGrupu">Izaberite grupu</string>
+   
+ <string name="txtMojiAtributi">MOJI ATRIBUTI</string>
+ 
+  <string name="UpozorenjeAplikacija">APLIKACIJA!</string>
+  <string name="ZatvoriAplikaciju">Da li želite izaći iz aplikacije?</string>
+
+  
+
+      
+</resources>

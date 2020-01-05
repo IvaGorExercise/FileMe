@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+    <item name="android:actionBarStyle">@style/MyActionBar</item>
+    <item name="android:actionMenuTextColor">#000000</item>
+    <item name="android:itemBackground">@drawable/gradient_blue</item>
+    <item name="android:itemTextAppearance">@style/ActionBarMenuText</item>
+   
+    </style>
+    
+     
+     <style name="MyActionBar"
+           parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/gradient_blue</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+    
+
+    <style name="ButtonText">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">left</item>
+    <item name="android:paddingLeft">5dip</item>
+    <item name="android:paddingTop">5dip</item>
+    <item name="android:textSize">20dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+</style>
+
+   <style name="ButtonTextNoShadow">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">left</item>
+    <item name="android:paddingLeft">10dip</item>
+    <item name="android:paddingTop">3dip</item>
+    <item name="android:textSize">20dp</item>
+    <item name="android:textStyle">bold</item>
+</style>
+
+   
+   <style name="ActionBarTitleText">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">left</item>
+    <item name="android:paddingLeft">0dip</item>
+    <item name="android:paddingTop">0dip</item>
+    <item name="android:textSize">19dp</item>
+    <item name="android:textStyle">bold</item>
+</style>
+
+    <style name="ActionBarMenuText">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">16dp</item>
+    <item name="android:textStyle">bold</item>
+</style>
+
+    <style name="OrangeText">
+    <item name="android:textColor">#0099CC</item>
+</style>
+  
+    <style name="NaslovText">
+    <item name="android:textColor">#0099CC</item>
+    <item name="android:textSize">19dp</item>
+    <item name="android:textStyle">bold</item>
+   </style>
+   
+   <style name="TextGreska">
+    <item name="android:textColor">#0099CC</item>
+</style>
+
+ <style name="SiviText">
+    <item name="android:textColor">#000000</item>
+</style>
+  
+
+</resources>
+
+

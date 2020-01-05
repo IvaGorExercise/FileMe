@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FileMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnTxtUnesiClan">Save </string>
+    <string name="btnTxtDohvatiClan">Dohvati postojeće</string>
+   	<string name="twTxtUpisaniClan"></string>
+   	<string name="twTxtClanIme">First name:</string>
+    <string name="twTxtClanPrezime">Last name:</string>
+    <string name="twTxtClanTelefon">Phone:</string>
+    <string name="twTxtClanEmail">Email:</string>
+	<string name="twTxtClanAdresa">Adress:</string>
+	<string name="twTxtClanOpis">Member description:</string>
+	<string name="twSpol">Gender:</string>
+	<string name="twDatumRodjenja">Date of birth:</string>
+	<string name="btnSetDate">Choose</string>
+	<string name="rbZena">F</string>
+	<string name="rbMusko">M</string>
+	<string name="btnSelectPhoto">Choose photo</string>
+	<string name="izaberite">-----------Group-----------</string>
+	
+	
+	
+	
+	
+	<string name="twTxtGrupaIme">Group name</string>
+	<string name="twTxtGrupaOpis">Group description</string>
+	<string name="btnTxtUnesiGrupu">Save </string>
+    <string name="btnTxtDohvatiGrupe">Dohvati postojeće grupe</string>
+   <string name="twTxtUpisanaGrupa">Grupe sa forme:</string>
+   
+   	
+	<string name="twTxtKategorijaIme">Attribute name</string>
+	<string name="twTxtKategorijaOpis">Attribute description</string>
+	<string name="btnTxtUnesiKategoriju">Save </string>
+    <string name="btnTxtDohvatiKategorije">Dohvati postojeće Attribute</string>
+   <string name="twTxtUpisanaKategorija">Atributi sa forme:</string>
+   
+   	<string name="rijecSpol">Gender:</string>
+   	<string name="rijecDatumRodjenja">Date of birth: </string>
+   	<string name="rijecTelefon">Phone: </string>
+   	<string name="rijecEmail">Email: </string>
+   	<string name="rijecAdresa">Adress:</string>
+   	<string name="rijecGrupeZaClana">Groups: </string>
+   	
+   	
+   	<string name="txtClanDetaljUredi">Edit</string>
+   	<string name="txtClanDetaljBrisi">Delete</string>
+   	
+   	<string name="txtUplaceno">paid: </string>
+   	<string name="txtVrijediDo">expires on: </string>
+   	
+   	<string name="twitemClanPauziraj">Pause</string>
+   	
+   	<string name="txtClanDetaljSpol1">Gender</string>
+   	<string name="txtClanDetaljDatumRodjenja1">Date of birth: </string>
+   	<string name="txtClanDetaljTelefon1">Phone: </string>
+   	<string name="txtClanDetaljEmail1">Email: </string>
+   	<string name="txtClanDetaljAdresa1">Adress: </string>
+   	<string name="txtClanDetaljOpis1">Member description:</string>
+   	<string name="txtClanDetaljGrupe1">Groups: </string>
+   	
+   	<string name="Opis">Description:</string>
+   	
+   	<string name="NemaGrupa">No Groups do not exist yet.  \n  Add Group pressing on <b> + </b>!</string>
+   	<string name="NemaClanova">No Members do not exist yet. \n  Add Member pressing on <b> + </b>!</string>
+   	<string name="NemaClanaPoGrupama">No Groups do not exist yet.  \n  Add Group pressing on <b> + </b>!</string>
+   	<string name="NemaAtributa">No Attributes do not exist yet.  \n  Add Attribute pressing on <b> + </b>!</string>
+   	
+   	
+   	   	
+   	<string name="uputeStoJeEvidencijaNaslov">What is FileMe?</string>
+   	<string name="uputeStoJeEvidencijaTekst">
+   	   FileMe is apliaction for all who manage all sorts of activities which include member evidence and membership fee payment for example: sport coach, pilates and dance trainers, musical and art courses trainers.
+   	   You can define groups of activities, insert members and member data, which member is in which group and monitor membership fee payment, in this aplication.
+   	   It is also possible to define your own Attributes (data) about members which are specified for your activities.
+   	    \n  \n <b><i>BEFORE FIRST USE OF APLICATION AND AFTHER INSTALATION:</i></b>\n <b>In Settings</b> choose type of evidence (1.  membership fee payment by month or 2. membership fee payment from date to date). Predefined type is 1. payment by month.  \n If you manage your payment by month you dont have to change anything. If you change type of evidence afther you have inserted data this data can be displyed incorrect.  
+   	    
+   	</string>
+   	<string name="uputeKategorijeNaslov">What are Attributes?</string>
+   	<string name="uputeKategorijeTekst">By predefined attributes for member like: first name, last name, dress, date of birth, gender... you can define your own attributes which are specific for your activities, for example: height and weight for sport activities. </string>
+   	<string name="uputeGrupeNaslov">What are Groups?</string>
+   	<string name="uputeGrupeTekst"> Groups are activities in which members attend, for example: junior group, senior group, zumba 1 pilates 1?</string>
+   	   	<string name="uputeClanarinaNaslov">What are settings?</string>
+   	<string name="uputeClanarinaTekst"> Aplication has two type of evidence depende on choice in Settings \n(1) Fee payment evidence by month. If payment day is any day in current month, fee expires last day of that month.
+   	    \n (2)Fee payment evidence from date to date. If payment day is any day in current month fee expires same day next month. In case that in next month that day no exist, fee will expire on maximum day od that month (for example february).
+   	    </string>
+   	
+   	
+		<string-array name="glavnimenu_lista">
+	    <item >List of Members</item>
+		<item >Members</item>
+		<item >Groups</item>
+		<item >My Attribute</item>
+		<item >Members by Groups</item>
+		<item >Membership</item>
+		<item >Settings</item>
+	</string-array>
+	
+		
+	<string name="imeAplikacije">FileMe</string>
+	
+	<string name="fragmentClanarina">Fee payment evidence</string>
+	<string name="fragmentIstekleClanarine">Expired fee</string>
+	<string name="fragmentPopisClanova">List of members</string>
+	<string name="fragmentUnosClanova">Add member</string>
+	<string name="fragmentClanoviPoGrupm">Members by groups</string>
+	<string name="fragmentGrupa">Groups</string>
+	<string name="fragmentKategorija">My attributes</string>
+	<string name="fragmentPostavkeAplikacije">Settings</string>
+	<string name="fragmentUpute">Instructions</string>
+	<string name="fragmentClanDetalj">Member detail</string>
+	<string name="fragmentUnosTermina">Add class</string>
+	<string name="fragmentUnosTerminClan">Add class attending</string>
+	<string name="fragmentUnosTerminList">Classes list</string>
+	<string name="fragmentUnosKoda">Licence</string>
+	
+	
+	<string name="dialogCancel">Cancel</string>
+	
+	<string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    
+    
+   <string name="Snimi">Take a photo</string>
+   <string name="SlikaIzAlbuma">Picture from album</string>
+   <string name="dodajSliku">Add photo!</string>
+    
+
+   <string name="validaciaUnesite">Insert</string>
+   <string name="validacijaIme">First name</string>
+   <string name="validacijaPrezime">Last name</string>
+   <string name="validacijaImeIPrezime">First and last name</string>
+   <string name="validacijaEmail">Email must contain @ and domain!</string>
+    <string name="validacijaTerminDatum">date</string>
+   <string name="validacijaTerminRedniBroj">No. different from "0" must be inserted</string>
+   <string name="validacijaTerminGrupa">group, </string>
+   <string name="validacijaKodaNeispravan">Incorrect licence </string>
+   <string name="validacijaKodaNijeUnesen">Licence</string>
+   
+       
+   <string name="Da">Yes</string>
+   <string name="Spremi">Spremi</string>
+   <string name="Odustani">Cancel</string>
+   <string name="brisiClana"> Do you realy want delete this Member and ALL DATA for that member, his groups, attributes and fee evidence?  Afther delete only way to have this member and his data again is to insert data from start for that member again!!!</string>
+   <string name="brisiGrupa">Do you realy want delete this Group? By deleting this group ALL DATA about members in this group and fee pyment for this group will be ireversibile deleted!!!</string>
+   <string name="brisiKategorija"> Do you realy want delete this Attribute? By deleting this attribute ALL DATA about members who have inserted data for that attribute will be ireversibile deleted!!!</string>
+   <string name="brisiTermin">Do you realy want delete this Class? By deleting this class ALL DATA about class and member attending will be ireversibile deleted!!!</string>
+   <string name="BrisiClanarina">Are you sure you want delete this fee payment?</string>
+   
+   
+   <string name="clanarinaZa">Fee for: </string>
+   <string name="isteklaClanarina">Expired on: </string>
+     <string name="terminiZa">Clases for: </string>
+   
+   <string name="drawerMenuClanarina">Fee payment evidence</string>
+   <string name="drawerMenuIsteklaClanarina">Expired fee</string>
+    <string name="drawerMenuPopisClanova">List of members</string>
+     <string name="drawerMenuUnosClanova">Add member</string>
+      <string name="drawerMenuClanoviPoGrupama">Members by groups</string>
+       <string name="drawerMenuGrupe">Groups</string>
+        <string name="drawerMenuAtributi">My attributes</string>
+         <string name="drawerMenuEvidencijaNastave">Class attend evidence</string>
+         <string name="drawerMenuPostavkeAplikacije">Settings</string>
+          <string name="drawerMenuPostavkeUpute">Instructions</string>
+           <string name="drawerMenuUnosLicence">Insert licence</string>
+            <string name="drawerMenuIzlazIzAplikacije">Exit</string>
+  
+          
+             <string name="vrstaEvidencijeJedan">1. FEE PAYMENT EVIDENCE BY MONTH. If payment day is any day in current month, fee expires last day of that month</string>
+   <string name="vrstaEvidencijeDva">2.FEE PAYMENT EVIDENCE FROM DATE TO DATE. If payment day is any day in current month fee expires same day next month. In case that in next month that day no exist, fee will be valid to maximum day od that month (for example february, and if next month has 30 days, and payment month has 31 days).</string>
+   
+   
+    <string name="Jezik">A) LANGUAGE</string>
+    <string name="VrstaEvidencije">B) EVIDENCE TYPE</string>
+        <string name="Odaberite">choose   >>></string>
+     <string name="odabraniJezik">Choosen language:</string>
+    <string name="odabranaVrstaEvidencije">Choosen Evidence Type:</string>
+    
+    
+   <string name="twTerminNaslov">Add new class</string>
+   <string name="twDatumTermina">Date:</string>
+   <string name="twIspraviTermina">Date correction:</string>
+  <string name="twSpinnerIzaberiGrupa">Choose group:</string>
+  <string name="twTerminRedniBroj">Number of class for choosen group on that day: </string>
+   <string name="twTerminClanNaslov">Present member on class</string>
+  
+   <string name="SelectAll">Select all</string>
+   
+   <string name="Uredi">Edit</string>
+      
+  <string name="Loading">Loading...</string>
+  
+  <string name="IzbornikNoviClan">New member</string>
+  <string name="IzbornikNovaGrupa">New group</string>
+  <string name="IzbornikKolekcija">Menu</string>
+  <string name="IzbornikKategorija">New attribute</string>
+  <string name="IzbornikNoviTermin">New class</string>
+  <string name="IzbornikPregledTermina">List of classes</string>
+  
+  
+  <string name="PostaviPauziraj">Are you sure that you want temporary stop monitor fee paymenet for this member and mark it as Pause?</string>
+ <string name="MakniPauziraj">Are you sure that you want monitor again fee paymenet for this member and mark it as not Pause?</string>
+ 
+ <string name="LicencaBroj">Licence number:</string>
+ <string name="LicencaDatum">Licence date:</string>
+  <string name="UnesiteLicencu">Insert licence</string>
+  
+ <string name="pristojnaGreska">Sorry, some error ocured. \n \n Oprostite, došlo je do greške. </string>
+ <string name="greskaZatvoriAplikciju">Restart aplication \n Restartaj aplikaciju </string>
+ 
+  <string name="brojClanova">Members count: </string>
+  
+  <string name="uneseniPodaciZa">inserted data for: </string>
+  
+  
+  
+  
+   
+  <string name="txtIznosClanarinaLabela">fee: </string>
+  <string name="twTxtGrupaCijena">Fee</string>
+  <string name="twTxtGrupaCijenaValuta">Currency</string>
+  <string name="twTxtGrupaCijenaNaFormi"> Set this value as default fee on form for payment evidence </string>
+  
+ <string name="txtFormaUnosClnarinaDatumUplate"> payment date </string>
+ <string name="txtFormaUnosClnarinaDatumUplateIzaberi">choose another payment date</string>
+ <string name="txtFormaUnosClnarinaIznos">Fee</string>
+ 
+  <string name="Obrisi">Delete</string>
+  
+  <string name="NespremljenePromjeneClan">There are unsaved changes for member!</string>
+  <string name="IzlazNespremljeniClan">Leave this screen?</string>
+  
+  <string name="IzaberiteGrupu">Choose gropu!</string>
+  
+   <string name="txtMojiAtributi">MY ATRIBUTES</string>
+   
+   <string name="UpozorenjeAplikacija">APLICATION!</string> 
+   <string name="ZatvoriAplikaciju">Do you want to exit application?</string>
+
+    
+          
+   
+</resources>

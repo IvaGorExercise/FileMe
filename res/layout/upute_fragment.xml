@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/uputeStoJeEvidencijaNaslov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uputeStoJeEvidencijaNaslov"
+        style="@style/OrangeText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/uputeStoJeEvidencijaTekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uputeStoJeEvidencijaTekst"
+         android:textSize="15dp" />
+    
+     <TextView
+        android:id="@+id/uputeKategorijeNaslov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uputeKategorijeNaslov"
+        style="@style/OrangeText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/uputeKategorijeTekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/uputeKategorijeTekst"
+         android:textSize="15dp"  />
+    
+    
+    <TextView
+        android:id="@+id/uputeGrupeNaslov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uputeGrupeNaslov"
+        style="@style/OrangeText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/uputeGrupeTekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uputeGrupeTekst"
+        android:textSize="15dp"  />
+
+
+
+    <TextView
+        android:id="@+id/uputeClanarinaNaslov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uputeClanarinaNaslov"
+        style="@style/OrangeText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/uputeClanarinaTekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uputeClanarinaTekst"
+        android:textSize="15dp"  />
+
+</LinearLayout>
+
+</ScrollView>
